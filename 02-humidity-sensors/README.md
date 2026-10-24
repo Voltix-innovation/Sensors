@@ -88,12 +88,26 @@ Specifications differ by model and operating conditions, so consult the relevant
 - Some sensors require calibration or periodic verification.
 - Measurement accuracy depends on the specific model and operating conditions.
 
-## 8. References
+## References and Datasheets
 
-- [Sensirion](https://sensirion.com/) — humidity sensor product documentation and datasheets
-- [Arduino Documentation](https://docs.arduino.cc/) — embedded-system learning resources
+- [Sensirion – Humidity and Temperature Sensors](https://sensirion.com/products/catalog)
+- [Adafruit – DHT11 and DHT22 Learning Guide](https://learn.adafruit.com/dht)
+- [Arduino Documentation](https://docs.arduino.cc/)
+
+### Datasheet Study Checklist
+
+When studying a humidity sensor, check:
+
+- Relative humidity measurement range (%RH)
+- Accuracy and resolution
+- Operating voltage and current consumption
+- Temperature measurement capability
+- Output interface, such as I2C or digital output
+- Response time
+- Recommended operating conditions
+
+**Note:** DHT11, DHT22, and SHT31 have different specifications. Always consult the datasheet for the exact sensor model.
 
 ---
 
 [Back to Sensor Knowledge Base](../README.md)
-
