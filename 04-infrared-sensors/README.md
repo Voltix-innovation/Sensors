@@ -84,12 +84,30 @@ Exact specifications depend on the sensor model and its intended application.
 - IR temperature readings depend on surface properties and measurement conditions.
 - Different IR sensor types are designed for different purposes and are not interchangeable.
 
-## 7. References
+## References and Datasheets
 
+- [Vishay – Infrared Sensors and Optoelectronics](https://www.vishay.com/en/optoelectronics/)
+- [Panasonic Industry – Sensors](https://industry.panasonic.com/global/en/products)
 - [Arduino Documentation](https://docs.arduino.cc/)
-- [Analog Devices](https://www.analog.com/) — sensor and infrared measurement resources
 
-Consult the manufacturer's datasheet for the exact sensor's operating range, output type, and electrical requirements.
+### Datasheet Study Checklist
+
+When studying an infrared sensor, check:
+
+- Operating voltage and current consumption
+- Detection range
+- Field of view
+- Wavelength sensitivity
+- Output type: analog or digital
+- Response time
+- Ambient-light sensitivity
+- Operating conditions
+
+### Important Distinction
+
+Different infrared sensors serve different purposes. IR obstacle sensors detect nearby objects, PIR sensors detect changes in infrared radiation caused by moving warm bodies, and infrared temperature sensors estimate temperature without direct contact.
+
+Always consult the datasheet for the exact sensor model.
 
 ---
 
