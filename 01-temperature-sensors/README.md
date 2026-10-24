@@ -88,15 +88,25 @@ The exact specifications depend on the sensor model and manufacturer.
 
 Always consult the manufacturer's datasheet for exact specifications and operating limits.
 
-## 8. References
+## References and Datasheets
 
-- [Texas Instruments](https://www.ti.com/) — semiconductor sensor documentation
-- [Analog Devices](https://www.analog.com/) — temperature measurement resources
-- [Arduino Documentation](https://docs.arduino.cc/) — embedded-system learning resources
+- [Texas Instruments – LM35 Temperature Sensor](https://www.ti.com/product/LM35)
+- [Analog Devices – DS18B20 Temperature Sensor](https://www.analog.com/en/products/ds18b20.html)
+- [Texas Instruments – Temperature Sensors](https://www.ti.com/sensors/temperature-sensors/overview.html)
 
----
+### Datasheet Study Checklist
 
-[Back to Sensor Knowledge Base](../README.md)
+When studying a temperature sensor, check:
+
+- Operating voltage and current consumption
+- Measurement range
+- Accuracy and resolution
+- Output type: analog or digital
+- Pin configuration
+- Response time
+- Recommended operating conditions
+
+**Note:** Always verify the exact sensor model and its datasheet before using its specifications in a design.
 
 ---
 
