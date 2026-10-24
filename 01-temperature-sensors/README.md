@@ -3,54 +3,100 @@
 
 ## 1. Introduction
 
-A temperature sensor is a device used to measure the temperature of an object, liquid, gas, or surrounding environment. Temperature sensors are important in electronics, industrial processes, robotics, and environmental monitoring.
+A temperature sensor is a device that measures the temperature of an object, substance, or surrounding environment. It converts temperature changes into a measurable electrical signal or digital value.
+
+Temperature sensors are widely used in electronics, robotics, industrial automation, healthcare, and environmental monitoring.
 
 ## 2. Working Principle
 
-Temperature sensors detect changes in physical or electrical properties caused by temperature variations. Depending on the sensor type, the measured property may be electrical resistance, voltage, or semiconductor characteristics.
+Different temperature sensors operate using different physical principles. Some measure changes in electrical resistance, while others generate a voltage or produce a digital output corresponding to temperature.
+
+For example, a thermistor changes its electrical resistance with temperature. A digital temperature sensor processes the measurement internally and provides a digital reading.
 
 ## 3. Types of Temperature Sensors
 
-- **Thermistor:** Measures temperature through a change in electrical resistance.
-- **Thermocouple:** Produces a small voltage due to a temperature difference between two dissimilar metals.
-- **RTD (Resistance Temperature Detector):** Measures temperature using the predictable resistance change of a metal, commonly platinum.
-- **Semiconductor Temperature Sensor:** Uses semiconductor properties to measure temperature.
-- **Digital Temperature Sensor:** Provides temperature readings in digital form.
+### 3.1 Thermistor
+
+A thermistor is a temperature-sensitive resistor.
+
+- **NTC:** Resistance decreases as temperature increases.
+- **PTC:** Resistance increases as temperature increases.
+- **Applications:** Battery monitoring, appliances, and temperature control.
+
+### 3.2 Thermocouple
+
+A thermocouple consists of two different metal conductors joined together. A temperature difference produces a small voltage.
+
+- **Applications:** Furnaces, industrial equipment, and high-temperature measurement.
+- **Advantages:** Wide measurement range and rugged construction.
+- **Limitations:** Requires signal conditioning and appropriate calibration.
+
+### 3.3 RTD (Resistance Temperature Detector)
+
+An RTD measures temperature through the predictable change in resistance of a metal, commonly platinum.
+
+- **Applications:** Industrial process control and laboratory instruments.
+- **Advantages:** Good accuracy and stability.
+- **Limitations:** Generally more expensive than basic thermistors.
+
+### 3.4 Semiconductor Temperature Sensor
+
+These sensors use semiconductor circuits to measure temperature. They may provide analog voltage or digital data.
+
+- **Examples:** LM35 and DS18B20.
+- **Applications:** Embedded systems, electronics, and environmental monitoring.
 
 ## 4. Important Characteristics
 
-- Measuring range
-- Accuracy
-- Sensitivity
-- Response time
-- Resolution
-- Stability
+- **Measurement range:** Temperatures the sensor is designed to measure.
+- **Accuracy:** How close the reading is to the actual temperature.
+- **Resolution:** The smallest change in temperature that can be represented.
+- **Response time:** How quickly the sensor responds to a temperature change.
+- **Sensitivity:** How much the output changes for a change in temperature.
+
+The exact specifications depend on the sensor model and manufacturer.
 
 ## 5. Applications
 
-- Air conditioners and refrigerators
 - Industrial temperature monitoring
+- HVAC systems
 - Medical equipment
+- Battery temperature monitoring
+- Robotics and embedded systems
+- Food storage and processing
 - Automotive systems
-- Weather monitoring
-- Electronic device protection
 
-## 6. Advantages
+## 6. Advantages and Limitations
 
-- Enables automatic temperature monitoring.
-- Helps prevent overheating.
-- Supports process control and safety.
-- Available in different ranges and levels of accuracy.
+**Advantages**
+- Supports automatic temperature monitoring.
+- Helps protect equipment from overheating.
+- Available in different ranges, sizes, and output types.
 
-## 7. Limitations
+**Limitations**
+- Different sensor types have different operating ranges.
+- Accuracy can depend on calibration and installation.
+- Some sensors require additional signal-conditioning circuits.
 
-- Different types have different operating ranges.
-- Some sensors require calibration.
-- Readings may be affected by mounting, environment, or electrical noise.
+## 7. Examples of Temperature Sensors
 
-## 8. Examples
+- LM35 — analog temperature sensor
+- DS18B20 — digital temperature sensor
+- NTC thermistor — resistance-based temperature sensing
+- K-type thermocouple — temperature measurement over a wide range
+- PT100 — platinum RTD
 
-Common examples include thermistors, thermocouples, PT100 RTDs, LM35, and digital sensors such as DS18B20.
+Always consult the manufacturer's datasheet for exact specifications and operating limits.
+
+## 8. References
+
+- [Texas Instruments](https://www.ti.com/) — semiconductor sensor documentation
+- [Analog Devices](https://www.analog.com/) — temperature measurement resources
+- [Arduino Documentation](https://docs.arduino.cc/) — embedded-system learning resources
+
+---
+
+[Back to Sensor Knowledge Base](../README.md)
 
 ---
 
