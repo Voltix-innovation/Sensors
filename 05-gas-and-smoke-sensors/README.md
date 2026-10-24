@@ -111,13 +111,29 @@ Refer to the manufacturer's datasheet for model-specific specifications.
 
 Never rely on an unverified educational sensor module to protect people from fire, toxic gases, or combustible-gas leaks. Use properly certified detectors appropriate for the hazard, and follow the manufacturer's installation and maintenance instructions.
 
-## 9. References
+## References and Datasheets
 
-- [Figaro Engineering](https://www.figaro.co.jp/en/) — gas sensor documentation
-- [Winsen Electronics](https://www.winsen-sensor.com/) — gas sensor product information
-- [National Fire Protection Association](https://www.nfpa.org/) — fire and life-safety resources
+- [Figaro Engineering – Gas Sensors](https://www.figaro.co.jp/en/)
+- [Winsen Electronics – Gas Sensors](https://www.winsen-sensor.com/)
+- [Texas Instruments – Sensor Documentation](https://www.ti.com/)
+- [NFPA – Fire and Smoke Safety Information](https://www.nfpa.org/)
 
-Always consult the official datasheet for the exact sensor model.
+### Datasheet Study Checklist
+
+When studying a gas or smoke sensor, check:
+
+- Target gas or substance
+- Detection range and sensitivity
+- Operating voltage and current consumption
+- Warm-up and preheating requirements
+- Output type: analog or digital
+- Operating temperature and humidity
+- Calibration requirements
+- Cross-sensitivity to other gases
+
+### Important Safety Note
+
+Low-cost gas sensor modules, such as MQ-series modules, are useful for learning and experimentation. They should not be treated as certified fire alarms or life-safety devices. Always consult the exact model's datasheet and use certified equipment for safety-critical applications.
 
 ---
 
