@@ -104,11 +104,35 @@ The exact specifications depend on the sensor model and measurement circuit.
 
 These are examples, not interchangeable components. Check the manufacturer's datasheet for the exact characteristics and electrical requirements.
 
-## 8. References
+## References and Datasheets
 
-- [Vishay](https://www.vishay.com/) — photodiodes and optoelectronic components
-- [ROHM Semiconductor](https://www.rohm.com/) — optical sensors and technical documentation
-- [Arduino Documentation](https://docs.arduino.cc/) — embedded-system learning resources
+- [Vishay – Optoelectronics and Light Sensors](https://www.vishay.com/en/optoelectronics/)
+- [ROHM Semiconductor – Sensor Products](https://www.rohm.com/products/sensors-mems)
+- [Texas Instruments – Ambient Light Sensors](https://www.ti.com/sensors/optical-sensors/ambient-light-sensors/overview.html)
+- [Arduino Documentation](https://docs.arduino.cc/)
+
+### Datasheet Study Checklist
+
+When studying a light sensor, check:
+
+- Spectral sensitivity and wavelength range
+- Measurement range and sensitivity
+- Operating voltage and current consumption
+- Output type: analog or digital
+- Field of view
+- Response time
+- Operating temperature range
+- Ambient-light limitations
+
+### Common Light Sensors
+
+- **LDR:** Resistance changes with light intensity.
+- **Photodiode:** Converts incident light into electrical current.
+- **Phototransistor:** Uses light to control transistor current.
+- **BH1750:** Measures ambient light and commonly provides readings in lux.
+- **Color sensor:** Detects color-related information using optical sensing elements.
+
+**Note:** Check the datasheet for the exact model before using its specifications.
 
 ---
 
