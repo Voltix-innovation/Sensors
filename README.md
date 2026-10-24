@@ -25,6 +25,7 @@ It is designed for students, beginners, and electronics enthusiasts who want to 
 8. [Sensor Classification](08-sensor-classification/README.md)
 9. [Sensor Glossary](09-glossary/README.md)
 10. [References and Learning Resources](10-references/README.md)
+11. [Sensor Comparison Guide](sensor-comparison/README.md)
 
 ## Topics Covered
 
