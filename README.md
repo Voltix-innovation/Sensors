@@ -22,9 +22,9 @@ It is designed for students, beginners, and electronics enthusiasts who want to 
 
 ### 2. Supporting Learning Resources
 
-8. [Sensor Classification](sensor-classification/README.md)
-9. [Sensor Glossary](glossary/README.md)
-10. [References and Learning Resources](references/README.md)
+8. [Sensor Classification](08-sensor-classification/README.md)
+9. [Sensor Glossary](09-glossary/README.md)
+10. [References and Learning Resources](10-references/README.md)
 
 ## Topics Covered
 
