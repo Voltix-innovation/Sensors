@@ -103,12 +103,26 @@ The exact electrical requirements should be checked for the specific module. In 
 - Very small objects and objects outside the detection beam may be difficult to detect.
 - Ultrasonic sensors are not suitable for every material or measurement environment.
 
-## 9. References
+## References and Datasheets
 
 - [Arduino Documentation](https://docs.arduino.cc/)
-- [Texas Instruments](https://www.ti.com/) — ultrasonic sensing and technical resources
+- [SparkFun – Ultrasonic Distance Sensor Guide](https://learn.sparkfun.com/tutorials/ultrasonic-distance-sensor-hookup-guide/all)
+- [Adafruit Learning System](https://learn.adafruit.com/)
 
-For exact measurement range, timing, and electrical specifications, consult the datasheet for the specific sensor model.
+### Datasheet Study Checklist
+
+When studying an ultrasonic sensor, check:
+
+- Operating voltage
+- Measurement range
+- Measuring accuracy
+- Trigger and Echo pin configuration
+- Sound-wave frequency
+- Minimum measuring distance
+- Response time
+- Echo output voltage and microcontroller compatibility
+
+**Important:** Some HC-SR04 modules use a 5 V Echo signal. Before connecting one to a 3.3 V microcontroller such as the ESP32-S3, verify the module's specifications and use suitable level shifting if required.
 
 ---
 
