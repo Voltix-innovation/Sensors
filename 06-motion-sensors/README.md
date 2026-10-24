@@ -93,13 +93,34 @@ Exact specifications depend on the sensor model and installation conditions.
 - Detection range and coverage depend on sensor placement.
 - Some applications require multiple sensors or additional processing.
 
-## 7. References
+## References and Datasheets
 
-- [Arduino Documentation](https://docs.arduino.cc/) — embedded-system learning resources
-- [Analog Devices](https://www.analog.com/) — sensor and motion-measurement documentation
-- [Texas Instruments](https://www.ti.com/) — sensing and signal-processing resources
+- [STMicroelectronics – Motion and MEMS Sensors](https://www.st.com/en/mems-and-sensors.html)
+- [Panasonic Industry – Sensors](https://industry.panasonic.com/global/en/products)
+- [Arduino Documentation](https://docs.arduino.cc/)
 
-Consult the manufacturer's datasheet for model-specific specifications and operating conditions.
+### Datasheet Study Checklist
+
+When studying a motion sensor, check:
+
+- Type of motion detected
+- Detection range and field of view
+- Operating voltage and current consumption
+- Output type: analog or digital
+- Response time
+- Sensitivity and detection angle
+- Environmental limitations
+- Standby current and power consumption
+
+### Types of Motion Sensors
+
+- **PIR sensor:** Detects changes in infrared radiation, commonly caused by moving warm bodies.
+- **Microwave sensor:** Uses electromagnetic waves to detect movement.
+- **Accelerometer:** Measures linear acceleration.
+- **Gyroscope:** Measures angular velocity.
+- **Vibration sensor:** Detects mechanical vibration.
+
+**Note:** Motion sensors use different sensing principles. Always check the exact model's datasheet before comparing specifications or selecting a sensor.
 
 ---
 
