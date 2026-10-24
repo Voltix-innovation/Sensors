@@ -62,9 +62,18 @@ This repository focuses on sensor theory, technical information, working princip
 
 This knowledge base can be expanded by adding more sensor categories, verified technical specifications, manufacturer datasheets, and reliable learning resources.
 
----
+## Project Status
 
-Maintained as a learning resource for sensor technology. sensor technology.
+- **Repository Type:** Sensor Knowledge Base
+- **Focus:** Sensor theory, working principles, technical characteristics, and applications
+- **Content:** Sensor categories, classification, glossary, and technical references
+- **Development Approach:** Gradual improvement through verified technical information
+
+## Maintenance
+
+This repository is maintained as a personal learning resource. Technical information and reference links should be reviewed periodically to maintain accuracy and relevance.
+
+---
 
 **Note:** This repository focuses on sensor knowledge and theory, not on project code.
 
